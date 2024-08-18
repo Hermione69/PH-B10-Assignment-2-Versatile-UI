@@ -158,3 +158,126 @@ i.fa-solid.fa-bars {
     font-size: 3rem;
     color: #fff;
 }
+
+
+
+/* Hero section style start */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-left {
+    width: 50%;
+}
+h1.hero-heading{
+    color: var(--heading-color);
+    font-size: 7rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    
+}
+span.cursive {
+    font-family: "Dancing Script", cursive;
+    font-weight: 100;
+    margin: 0 11px;
+    font-size: 8.5rem;
+}
+p.hero-text{
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    
+}
+.hero-right {
+    position: relative;
+}
+.hero-box {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 8rem;
+    width: 16rem;
+    padding: 0rem 1rem;
+    
+}
+
+.ellipse {
+    width: 3rem;
+    height: 3rem;
+    background: var(--btn-color);
+    border-radius: 50%;
+}
+
+.box-content h6 {
+    color: rgb(250, 250, 249);
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.box-content p {
+    font-size: 1.3rem;
+}
+.box-content p {
+    font-size: 1.3rem;
+}
+
+
+
+.box-1 {
+    position: absolute;
+    /* top: 1%; */
+    right: 70%;
+    bottom: 12%;
+    /* bottom: 16rem; */
+}
+
+.box-2 {
+    position: absolute;
+    top: 23%;
+    left: 64%;
+}
+
+/* ================== Habit section */
+
+.habits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    gap: 5rem;
+    margin-top: 6rem;
+}
+.habit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habit-img{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.habit-img img {
+   
+    transition: .5s ease-in-out;
+
+}
+
+.habit-img img:hover {
+   transform: scale(1.1);
+}
+.habit-heading h4 {
+    font-size: 1.8rem;
+    line-height: 4.4rem;
+}
