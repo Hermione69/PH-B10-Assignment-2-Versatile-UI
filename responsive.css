@@ -1,0 +1,70 @@
+@media(max-width:576px)
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 3.2rem;
+        line-height: 4rem;
+     }
+     p{
+        flex-shrink: 1.2rem;
+     }
+     /* navbar ==================== */
+     .nav-toggle-icon {
+        display: block;
+    }
+    .nav-right {
+        display: none;
+    }
+
+    /* hero section */
+    .hero-section {
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+    .hero-left {
+        width: 100%;
+    }
+    h1.hero-heading{
+        font-size: 3.6rem;
+    }
+    
+    .hero-img img{
+        max-width: 90%;
+    width: 90%;
+    }
+    .box-1 {
+        right: 70%;
+        bottom: 23%;
+        
+    }
+    .box-2 {
+        top: 17%;
+        left: 64%;
+    }
+     /* Habit section  */
+     .habits {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .run-contents {
+        flex-direction: column;
+        padding: 3rem 5.5rem;
+        gap: 3rem;
+    }
+    .run-text {
+        width: 100%;
+    }
+    .run-img{
+        width: 28.7rem;
+        height: 17rem;
+        text-align: center;
+        background-image: url("assets/run.jpg");
+    }
+    /* BMI CONTENTS */
+    .bmi-contents{
+        flex-direction: column;
+    }
+    
+        

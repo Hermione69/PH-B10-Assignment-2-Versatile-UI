@@ -281,3 +281,221 @@ p.hero-text{
     font-size: 1.8rem;
     line-height: 4.4rem;
 }
+
+/* run section */
+
+section.run-section {
+    margin: 7rem 0 0 0;
+}
+.run-contents {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5.5rem;
+}
+.run-text{
+    width: 40%;
+}
+.run-text p {
+    margin: 1.5rem 0px;
+}
+.run-img{
+    width: 36rem;
+    height: 31.2rem;
+    border-radius: 18px;
+    background-image: url("assets/run.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 4rem;
+}
+/* Exercise section */
+
+iframe{
+    border-radius: 0.5rem;
+    background: transparent;
+    width: 100%;
+}
+
+.original-container {
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 1.15rem;
+}
+
+.card-desc-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3.375rem;
+    text-align: center;
+}
+
+.card-desc-container h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0.875rem;
+}
+
+.card-desc-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 0.875rem;
+}
+.card-container{
+    width: 75%;
+    margin: 0 auto;
+    justify-items:center;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+.card{
+    background: transparent;
+    width: 99%;
+    justify-items:center;
+}
+
+
+.bmi-desc {
+    width: 46.5%;
+    margin: 0 auto;
+    margin-bottom: 6.25rem;
+}
+
+.bmi-desc h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0.875rem;
+}
+
+.bmi-desc p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.089rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
+h4.bmi-heading {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+h4.bmi-heading.heading-2 {
+    /* margin-bottom: 1rem; */
+    margin: 3rem 0 1rem 0;
+}
+
+.bmi-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.bmi-section {
+    background-color: var(--section-bg);
+    padding: 4rem 0 6rem 0;
+}
+
+.bmi-table {
+    width: 350px; /* Adjusted for proper scaling */
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+    
+}
+
+.bmi-table thead th {
+    font-size: 16px;
+font-weight: 500;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.bmi-table tbody tr {
+    border-bottom: 1px solid #444;
+}
+
+.bmi-table tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+.bmi-table tbody td {
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 200;
+    
+}
+
+.bmi-table tbody tr:hover {
+    background-color: #2c2c2c;
+}
+/* bmi form ---------- */
+.styled-form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+form.styled-form p {
+    font-size: 1.4rem;
+    margin: 1.2rem 0rem;
+    font-weight: 400;
+   
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-group.full-width {
+    justify-content: flex-start;
+}
+
+.input-group input,
+.input-group select {
+    width: 48%;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.input-group.full-width select {
+    width: 100%;
+}
+
+.input-group input::placeholder,
+.input-group select {
+    color: var(--text-color);
+}
+
+.input-group select {
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,%3csvg xmlns%3d%27http%3a//www.w3.org/2000/svg%27 width%3d%274%27 height%3d%272%27 viewBox%3d%270 0 4 2%27%3e%3cpath fill%3d%27%23ccc%27 d%3d%27M2 0L0 2h4z%27/%3e%3c/svg%3e') no-repeat right 10px center;
+    padding-right: 30px;
+}
+
+.input-group select option[disabled] {
+    color: #666;
+}
+option {
+    background: var(--section-bg)!important;
+}
+.input-group select option:hover {
+    background-color: var(--btn-color)!important;
+    
+}
