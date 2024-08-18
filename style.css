@@ -499,3 +499,148 @@ option {
     background-color: var(--btn-color)!important;
     
 }
+/* unique section===================================== */
+section.Services-section{
+    margin: 8rem 0 8.8rem 0;
+}
+
+.Services-section .section-heading{
+    justify-content: flex-start;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.service-icon i{
+    color: var(--btn-color);
+    font-size: 4rem;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+.service-icon i.fa-solid:hover{
+    color: var(--heading-color);
+    transform: translateY(-10px);
+}
+.service-content {
+    padding: 4rem 2rem;
+}
+.service-heading h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 5rem;
+}
+/* trainer section ================================= */
+
+.our-team-member{
+    background-color: black;
+}
+.meet-team-content{
+    width: 1060px;
+    height: 892px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.meet-team-container{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.meet-team-container h1{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+.meet-team-container p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 19px;
+
+}
+.team-image-container{
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 105px;
+}
+
+.team-member-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.team-member-image img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.team{
+    padding-bottom: 5.3rem;
+}
+
+.t-name{
+    position: absolute;
+    top: 12.7rem;
+    left: 1rem;
+}
+.t-name h1{
+   color: white;
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+
+.t-name p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* footer section=========================== */
+footer.footer-section{
+    background-color: var(--section-bg);
+}
+.footer-content {
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    max-width: 36rem;
+}
+
+.footer-logo p {
+    /* line-height: 2rem; */
+    margin-top: 2rem;
+}
+
+.footer-col h5 {
+    font-size: 18px;
+    margin: 0 0 2rem 0;
+    font-weight: 700;
+}
+
+.footer-menu p {
+    line-height: 3rem;
+}
+.footer-bottom {
+    /* margin: 3rem auto; */
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid var(--text-color);
+}

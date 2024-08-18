@@ -66,5 +66,29 @@
     .bmi-contents{
         flex-direction: column;
     }
-    
+     /* team member section ================ */ 
+     .members{
+        padding: 1rem;
+        }
+     .single-member {
+          margin: 0 auto;
+     }
+ 
+     .footer-content {
+         flex-direction: column;
+         justify-content: flex-start;
+     }
+     .footer-logo {
+         max-width: 100%;
+     }
+     .footer-col {
+         width: 101%;
+         margin-top: 3rem;
+     }
+     .footer-bottom {
+         /* margin: 3rem auto; */
+         text-align: left;
+       
+     }
+
         
