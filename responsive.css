@@ -10,7 +10,7 @@
      p{
         flex-shrink: 1.2rem;
      }
-     /* navbar ==================== */
+     /* navbar */
      .nav-toggle-icon {
         display: block;
     }
@@ -69,12 +69,12 @@
     .service-content {
         padding: 2rem 0rem;
     }
-    /* BMI CONTENTS==================== */
+    /* BMI CONTENTS */
     .bmi-contents{
     flex-direction: column;
     
     }
-    /* team member section ================ */ 
+    /* team member section  */ 
     .members{
        padding: 1rem;
        }
